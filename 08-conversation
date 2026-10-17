@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "uma:Hi venky,How are you"
+echo "venky:Hi uma i am good how are you"
+echo "uma:i am fine thanks for asking"
+echo "venky:where are you now"
+echo "uma:i am in bangalore,you"
+echo 'venky:i am in hyderabad"

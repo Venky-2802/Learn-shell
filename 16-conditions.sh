@@ -7,12 +7,12 @@ read marks
 if [ $marks -lt 33 ]; then
     echo "Fail"
 elif [ $marks -lt 50 ]; then
-    echo "Third class
+    echo "Third class"
 elif [ $marks -lt 60 ]; then
-    echo "second class"
-elif [$marks -lt 75 ]; then
-     echo "First class
+    echo "Second class"
+elif [ $marks -lt 75 ]; then
+     echo "First class"
 else 
     echo "Distinction"
 fi
-    echo "End"
+    echo "End" 

@@ -9,7 +9,7 @@ fi
 
 mkdir -p $logs_folder
 
-echo "script started excution at ${date +"%F %T"}"
+echo "script started excution at $(date +"%F %T")"
 
 validate(){
     if [ $1 -ne 0 ];then
@@ -30,5 +30,5 @@ validate $? "mysql installation"
 
 echo "still proceeded..."
 
-echo "script excution completion at ${date +"%F %T"}"
+echo "script excution completion at $(date +"%F %T")"
 

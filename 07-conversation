@@ -1,0 +1,4 @@
+#!/bin/bash
+#this is not going to be excuted
+#comment
+echo "Hello world"

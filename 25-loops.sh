@@ -23,8 +23,6 @@ validate(){
         echo -e "${2}..${G}SUCCESS${N}"  | tee -a $logs_file
     fi
 }
-
-
 for package in $@
 do
    dnf list installed $package &>> $logs_file
